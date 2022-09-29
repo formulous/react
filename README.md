@@ -11,5 +11,6 @@ return (
     Like
   </button>
 )
+// JSX가 아래와 같이 변경해주어 웹에서 해석할 수 있게됨
 // => return React.createElement('button', {onClick: () => this.setState({liked: true})}, 'Like');
 ```
