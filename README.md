@@ -17,7 +17,7 @@ return (
 
 * 위와 같은 JSX 문법을 해석하기 위해 script의 type에 text/babel을 추가해준다.
 
-```javascript
+```react
 <script type="text/babel">
   ReactDOM.render(<LikeButton/>, document.querySelector('#root')); // React 17 version code
   ReactDOM.createRoot(document.querySelector('#root')).render(<LikeButton/>); // React 18 version code
