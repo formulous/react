@@ -17,3 +17,15 @@
 * Airbnb의 홈페이지에 Component 예시를 보자
 
 ![image](https://user-images.githubusercontent.com/88424067/193166416-831d4e4b-0349-4960-bd31-6afb47a11620.png)
+
+### Props의 특징
+
+**  READ-ONLY **
+
+값을 변경할 수 없다. [붕어빵이 다 구어진 이후에 속재료를 바꿀 수 없다]
+
+* 그렇다면 다른 Props 값으로 Element를 생성하려면 어떻게 해야할까?
+  새로운 값을 컴포넌트에 전달하여 새로운 Element를 생성해준다.
+
+** 모든 리액트 컴포넌트는 Props를 직접 바꿀 수 없고 같은 Props에 대해서는 항상 같은 결과를 보여줄 것! 이라고 React Docs에 적혀있다. **
+
