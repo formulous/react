@@ -30,3 +30,4 @@ Airbnb의 홈페이지에 Component 예시를 보자
 
 모든 리액트 컴포넌트는 Props를 직접 바꿀 수 없고 같은 Props에 대해서는 항상 같은 결과를 보여줄 것! 이라고 React Docs에 적혀있다. **
 
+## Component 만들기
