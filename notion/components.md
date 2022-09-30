@@ -37,3 +37,19 @@ Welcome이 아니라 welcome이었다면, react는 component가 아니라 DOM ta
 Component로 부터 생성된 Element가 화면에 보여지는 것이지 Component가 직접 렌더링 되는게 아니다.
 
 ![image](https://user-images.githubusercontent.com/88424067/193188333-07a33959-8d60-4ecc-b473-89156aaf2404.png)
+
+### Component 합성
+
+여러개의 component를 하나로 합쳐서 사용
+
+![image](https://user-images.githubusercontent.com/88424067/193188759-8f6b3ddb-ea55-4c37-bbe9-1d3e449c3752.png)
+
+App component는 3개의 welcome component를 가지고 있다. 쉽게 그림으로 예시를 들자면 아래와 같다
+
+![image](https://user-images.githubusercontent.com/88424067/193188825-1664a4d8-5b8e-4a7a-9a38-2830894e212b.png)
+
+### Component 추출
+
+복잡한 component를 쪼개서 여러개의 component를 생성함, 기능 단위로 추출 해주는게 좋다
+
+재사용성이 증가할 수 있다. (props 단순화, 기능 명확, 개발 속도 상승)
